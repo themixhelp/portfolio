@@ -5,3 +5,9 @@
 .main-element{
     @apply w-screen h-screen flex flex-col justify-center items-center;
 }
+.paragraph{
+    @apply mt-4 font-normal text-lg;
+}
+.link{
+    @apply underline font-medium;
+}

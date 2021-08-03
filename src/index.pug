@@ -10,6 +10,14 @@ html(lang="en")
 
         link(href="./tailwind.css" rel="stylesheet")
 
+        style.
+            *, *::before, *::after{
+                box-sizing: border-box;
+            }
+            ::-webkit-scrollbar{
+                width: 0;
+            }
+
         // Fonts Import
         link(rel='preconnect' href='https://fonts.googleapis.com')
         link(rel='preconnect' href='https://fonts.gstatic.com')
@@ -26,3 +34,30 @@ html(lang="en")
 
             span.absolute.left-0.bottom-0.m-2.opacity-50 @themixhelp, all rights reserved
             span.absolute.right-0.bottom-0.m-2.opacity-50 😺
+
+
+        main.main-element
+
+            section(class="w-11/12 md:w-3/4 lg:w-6/12 h-auto").px-8.py-12.rounded-md.shadow-lg.bg-color.text-background.text-left
+                h1.mb-6.font-bold.text-4xl something about me...
+
+                p.paragraph My name is Mikołaj, I'm interested in computer science, mainly webdev.
+
+                p.paragraph
+                    | I work with&nbsp;
+                    a(href="https://www.jetbrains.com/webstorm/").link JetBrains
+                    | &nbsp;tools, my favorite style is minimalism, exactly how this site is built!
+
+                p.paragraph
+                    | I support open-source solutions, most of my projects are published on&nbsp;
+                    a(href="https://github.com/themixhelp").link GitHub
+                    | , I use&nbsp;
+                    a(href="https://manjaro.org/").link GNU Linux Manjaro
+                    | &nbsp;operating system.
+
+                p.paragraph
+                    | If you would like to contact me, do it by email -&nbsp
+                    a(href="mailto:main@themixhelp").link main@themixhelp.ovh
+                    | , or via discord -&nbsp
+                    a(href="https://discordapp.com/users/633016971373314049").link themixhelp#3576
+                    | .
