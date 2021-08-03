@@ -1,8 +1,8 @@
 module.exports = {
     purge: {
-        enabled: false,
+        enabled: true,
         layers: ["components", "utilities"],
-        content: ['./src/*.pug'],
+        content: ['./src/*.pug', './src/includes/*.pug'],
     },
 
     darkMode: false, // or 'media' or 'class'

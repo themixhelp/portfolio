@@ -12,5 +12,5 @@
     @apply mt-4 font-normal text-lg;
 }
 .link{
-    @apply underline font-medium;
+    @apply underline font-medium transition transition-opacity duration-300 hover:opacity-90;
 }
