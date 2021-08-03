@@ -17485,6 +17485,13 @@ video {
   justify-content: center;
 }
 
+.custom-pos{
+  position: absolute;
+  bottom: 0px;
+  margin: 0.5rem;
+  opacity: 0.5;
+}
+
 .paragraph{
   margin-top: 1rem;
   font-size: 1.125rem;

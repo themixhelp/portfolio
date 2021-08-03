@@ -5,6 +5,9 @@
 .main-element{
     @apply w-screen h-screen flex flex-col justify-center items-center;
 }
+.custom-pos{
+    @apply absolute bottom-0 m-2 opacity-50;
+}
 .paragraph{
     @apply mt-4 font-normal text-lg;
 }
