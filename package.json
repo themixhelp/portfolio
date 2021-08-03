@@ -1,0 +1,30 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "description": "my personal portfolio",
+  "main": "main.js",
+  "scripts": {
+    "build:css": "postcss ./src/tailwind.css -o ./public/tailwind.css",
+    "build:pug": "pug ./src/index.pug -o ./public/ -P",
+    "build": "postcss ./src/tailwind.css -o ./public/tailwind.css && pug ./src/index.pug -o ./public/ -P",
+    "watch:pug": "pug ./src/index.pug -o ./public/ -w -P"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/themixhelp/portfolio.git"
+  },
+  "author": "themixhelp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/themixhelp/portfolio/issues"
+  },
+  "homepage": "https://github.com/themixhelp/portfolio#readme",
+  "dependencies": {
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
+  }
+}
