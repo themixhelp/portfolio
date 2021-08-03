@@ -2,7 +2,7 @@ module.exports = {
     purge: {
         enabled: true,
         layers: ["components", "utilities"],
-        content: ['./src/*.pug', './src/includes/*.pug'],
+        content: ["./src/*.pug", "./src/includes/*.pug"],
     },
 
     darkMode: false, // or 'media' or 'class'
